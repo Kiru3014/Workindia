@@ -95,15 +95,15 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
 
                 R.id.navigation_one -> {
-                    apiListCall("1ef320cf-73c8-4ac7-9b2e-040ba622b8b4")
+                    apiListCall("c676c89c-8910-4ffd-a762-a0bb2a747dad")
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.navigation_two -> {
-                    apiListCall("793604cd-5291-45c6-925a-91a013759892")
+                    apiListCall("1ef320cf-73c8-4ac7-9b2e-040ba622b8b4")
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.navigation_three -> {
-                    apiListCall("1ef320cf-73c8-4ac7-9b2e-040ba622b8b4")
+                    apiListCall("793604cd-5291-45c6-925a-91a013759892")
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.navigation_four -> {
