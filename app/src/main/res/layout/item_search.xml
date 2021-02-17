@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<EditText xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_search"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp"
+    android:layout_weight="1"
+    android:background="@drawable/edit_search"
+    android:hint="@string/search"
+    android:imeOptions="actionSearch"
+    android:importantForAutofill="no"
+    android:inputType="text"
+    android:maxLines="1"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:textColor="@color/colorBlack"
+    android:textColorHint="@color/colorBottomBarUnSelected"
+    android:textSize="@dimen/_12ssp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/txt_title_explore"
+    tools:showIn="@layout/item_tool_bar" />
